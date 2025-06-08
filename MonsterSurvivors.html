@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Monster Survivors - Play The Ultimate Online Survival Game</title>
+    
+    <meta name="description" content="Jump into the action with Monster Survivors! Survive endless waves of creatures, level up, and choose powerful abilities in this thrilling free-to-play online game.">
+    
+    <link rel="canonical" href="https://monstersurvivors.online/">
+    
+    <meta name="keywords" content="Monster Survivors, survival game, online game, action game, free game, vampire survivors like">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        /* This wrapper maintains a 16:9 aspect ratio for the game iframe, ensuring it scales correctly on all devices. */
+        .game-wrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 = 0.5625) */
+            height: 0;
+            overflow: hidden;
+            border-radius: 0.75rem; /* Corresponds to Tailwind's rounded-xl */
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); /* Corresponds to Tailwind's shadow-lg */
+        }
+        .game-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        /* Apple-inspired color palette configuration for Tailwind */
+        .apple-theme {
+            background-color: #f9fafb; /* Light Gray (bg-gray-50) */
+            color: #1f2937; /* Dark Gray (text-gray-800) */
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+        h1, h2 {
+            color: #111827; /* Near Black (text-gray-900) */
+        }
+        a {
+            color: #2563eb; /* Blue (text-blue-600) */
+        }
+        a:hover {
+            color: #1d4ed8; /* Darker Blue (text-blue-700) */
+        }
+    </style>
+</head>
+
+<body class="apple-theme">
+
+    <main class="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
+        
+        <header class="text-center mb-8">
+            <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight mb-2">
+                Monster Survivors
+            </h1>
+            <p class="text-lg text-gray-600">
+                Face endless waves of creatures in this thrilling online action survival game.
+            </p>
+        </header>
+
+        <section class="mb-12">
+            <div class="game-wrapper bg-gray-900">
+                <iframe 
+                    src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html"
+                    title="Monster Survivors Game"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <section class="space-y-8 text-gray-700 text-base sm:text-lg leading-relaxed">
+            
+            <article>
+                <h2 class="text-2xl sm:text-3xl font-bold mb-3">About The Game</h2>
+                <p>
+                    Dive into the intense action of Monster Survivors, where you are the last stand against relentless hordes of menacing creatures. Your mission is simple: survive as long as you can. For every monster you defeat, you'll gain precious experience, level up, and unlock powerful new abilities and devastating upgrades. Choose your path wisely to build an unstoppable force against the ever-increasing threat.
+                </p>
+            </article>
+
+            <article>
+                <h2 class="text-2xl sm:text-3xl font-bold mb-3">How to Play</h2>
+                <p>
+                    The controls are designed to be simple and intuitive, letting you focus on the action.
+                </p>
+                <ul class="list-disc list-inside mt-2 space-y-1">
+                    <li><strong>Movement:</strong> Use your <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg">mouse</kbd> to guide your character or press the <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg">W</kbd> <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg">A</kbd> <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg">S</kbd> <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg">D</kbd> keys.</li>
+                    <li><strong>Attacking:</strong> Your character attacks automatically. Focus on positioning and dodging!</li>
+                    <li><strong>Level Up:</strong> Collect the glowing gems dropped by defeated enemies to gain experience.</li>
+                    <li><strong>Upgrades:</strong> When you level up, you'll be presented with a choice of new abilities. Choose carefully to create powerful synergies.</li>
+                </ul>
+            </article>
+
+            <article>
+                <h2 class="text-2xl sm:text-3xl font-bold mb-3">Key Features</h2>
+                <ul class="list-disc list-inside space-y-1">
+                    <li><strong>Endless Action:</strong> Fight against ever-growing hordes of monsters.</li>
+                    <li><strong>Deep Upgrade System:</strong> Hundreds of potential ability combinations.</li>
+                    <li><strong>Instant Play:</strong> Free to play directly in your browser with no download required.</li>
+                    <li><strong>Fully Responsive:</strong> Enjoy a seamless experience on both PC and mobile devices.</li>
+                </ul>
+            </article>
+
+        </section>
+
+        <footer class="text-center mt-12 text-gray-500 text-sm">
+            <p>&copy; 2025 MonsterSurvivors.online. All Rights Reserved.</p>
+        </footer>
+
+    </main>
+
+</body>
+</html>
